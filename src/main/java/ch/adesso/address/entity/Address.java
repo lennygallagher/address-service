@@ -1,4 +1,4 @@
-package ch.adesso.address.boundry.entity;
+package ch.adesso.address.entity;
 
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
