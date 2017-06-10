@@ -1,4 +1,4 @@
-package com.airhacks;
+package ch.adesso.config;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
