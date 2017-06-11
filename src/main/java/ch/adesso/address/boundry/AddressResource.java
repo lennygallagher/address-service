@@ -1,6 +1,6 @@
-package ch.adesso.address.boundry.control;
+package ch.adesso.address.boundry;
 
-import ch.adesso.address.boundry.entity.Address;
+import ch.adesso.address.entity.Address;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
