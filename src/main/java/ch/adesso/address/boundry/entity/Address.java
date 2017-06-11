@@ -7,11 +7,22 @@ import javax.ws.rs.core.MediaType;
  * Created by gallagher on 10.06.2017.
  */
 public class Address {
-    private final String street;
-    private final String city;
+    private String street;
+    private String city;
+
+    public Address() {
+    }
 
     public Address(String street, String city) {
         this.street = street;
+        this.city = city;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public void setCity(String city) {
         this.city = city;
     }
 
@@ -23,4 +34,11 @@ public class Address {
         return city;
     }
 
+    @Override
+    public String toString() {
+        return "Address{" +
+                "street='" + street + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
 }
